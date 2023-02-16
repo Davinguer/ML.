@@ -1,0 +1,351 @@
+
+body{
+    background-color: black;
+    font-size: 16px;
+}
+
+h1{
+    color: aliceblue;
+    border: 1px groove white;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom:50px; 
+    position: absolute;
+    margin-top:30px ;
+    margin-left: 20px;
+   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+p{
+    color: aliceblue;
+    position: absolute;
+    margin-top: 70px;
+    font-size: 12px;
+    margin-left: 24px;
+}
+a{
+    color: aliceblue;
+    font-size: 20px;
+   
+}
+
+img{
+    width: 300px;
+    height: 150px;
+    margin-top: 180px;
+    position: absolute;
+    margin-left: 460px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite ;
+
+   
+        
+
+   
+   } 
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+.fundo{
+   
+    background-color: rgb(73, 73, 88);
+    background-image:url("..//ex001/floresta.imagen.gif") ;
+    background-size: cover;
+    border-radius: 10px;
+    width: 1250px;
+    height: 100px;
+   
+}
+.plano{
+    height: 1000px;
+    background-color: rgb(73, 73, 88);
+    background-image:url("..//ex001/floresta.imagen.gif") ;
+    background-size: cover;
+    border-radius: 10px;
+    width: 1250px;
+    height: 100px;
+    margin-top:670px ;
+    position: absolute;
+    margin-left: 150;
+    float: left;
+    padding-bottom:10px ;
+    
+   
+}
+.Login{
+    margin-left: 280px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 1px groove rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 650px;
+    margin-top:460px ;
+    position: absolute;
+    transition: 1s;
+   
+    
+}
+
+.Login:hover{
+    background-color:  rgb(155, 85, 85);
+}
+.bb{
+    margin-left: 280px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 1px groove rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 530px;
+    margin-top:460px ;
+    position: absolute;
+    transition: 1s;
+}
+.bb:hover{
+    background-color:  rgb(155, 85, 85);
+}
+.pp{
+    color: aliceblue;
+    position: absolute;
+    margin-top: 710px;
+    font-size: 12px;
+    margin-left: 20px;
+    text-decoration: solid;
+    padding-bottom: 40px;
+    padding-left: 110px;
+    background-color: hsla(0, 0%, 0%, 0);
+    width: 1000px;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+}
+
+ul{
+    background-color: rgba(0, 0, 0, 0);
+   position: absolute;
+    margin-top: -50px;
+    margin-left: 850px;
+   
+}
+li{
+   display:inline-block ;
+    
+}
+li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    transition: 1s;
+    border: 20px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    font-size: 15px;
+    
+  
+}
+
+li a:hover{
+background-color: rgba(155, 85, 85, 0.473);
+
+}
+
+input{
+color: rgb(255, 255, 255);
+margin-top:200px ;
+position: absolute;
+margin-left: 530px;
+border : 1px;
+border-radius: 10px;
+padding: 10px;
+background-color: rgba(173, 156, 146, 0.514);
+}
+.box {
+    width: 450px;
+    height: 300px;
+    color: aliceblue;
+    background-color: rgb(211, 148, 97);
+    border: 84px;
+    padding-bottom: 200px;
+    margin-left:400px ;
+    border-radius: 80px;
+    background-image:url(floresta.imagen.gif) ;
+    padding-top: 110px;
+    height: 20px; 
+    margin-top:100px;
+    position: absolute;
+    
+    
+    
+}
+.login{
+    margin-top: 130px;
+    background-color: rgba(240, 248, 255, 0);
+    margin-left:570px;
+}
+
+button{
+    margin-left: 280px;
+    background-color: rgb(167, 95, 62);
+    padding: 10px;
+    border: 1px groove rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 549px;
+    margin-top:360px ;
+    position: absolute;
+    transition: 1s;
+    font-size: 14px;
+    color: aliceblue;
+    width: 150px;
+}
+
+button:hover{
+    background-color:  rgb(155, 85, 85);
+}
+
+.img{
+    margin-left: 599px;
+   width: 40px;
+   height: 20px;
+   margin-top: 670px;
+
+}
+.entrar{
+    margin-top: -70px;
+}
+
+.fim{
+    width: 160px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url("../ex001/bird.png");
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 538px;
+    background-size: cover;
+    padding: -10px;
+    
+}
+.fundi{
+    width: 350px;
+    height: 300px;
+    color: aliceblue;
+    background-color: rgb(211, 148, 97);
+    border: 84px;
+    padding-bottom: 200px;
+    margin-left:430px ;
+    border-radius: 80px;
+    background-image:url(dims.gif) ;
+    padding-top: 110px;
+    height: 20px; 
+    margin-top:100px;
+    position: absolute;
+     
+}
+.sei{
+    width: 350px;
+    height: 300px;
+    color: aliceblue;
+    background-color: rgb(211, 148, 97);
+    border: 84px;
+    padding-bottom: 200px;
+    margin-left:30px ;
+    border-radius: 80px;
+    background-image:url(verde.gif) ;
+    padding-top: 110px;
+    height: 20px; 
+    margin-top:100px;
+    position: absolute; 
+}
+.cenoura{
+    width: 350px;
+    height: 300px;
+    color: aliceblue;
+    background-color: rgb(211, 148, 97);
+    border: 84px;
+    padding-bottom: 200px;
+    margin-left:830px ;
+    border-radius: 80px;
+    background-image:url(GIF_LostCity_Teaser_Burst.gif) ;
+    padding-top: 110px;
+    height: 20px; 
+    margin-top:100px;
+    position: absolute;
+}
+.coelho{
+    width: 160px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url("../ex001/cenoura.png");
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 930px;
+    background-size: cover;
+    padding: -10px;
+    
+}  
+.tugita {
+    width: 160px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url("../ex001/tortuga.png");
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 135px;
+    background-size: cover;
+    padding: -10px;
+}
+.testinho{
+    position: absolute;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 500x;
+    font-family: serif;
+    margin-left: -10px;
+    
+}
+.botao1{
+    margin-left: 280px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 1px groove rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 165px;
+    margin-top:360px ;
+    position: absolute;
+    transition: 1s;
+}
+
+.botao2 :hover{
+    background-color: rgb(93, 124, 107);
+}
+.botao2{
+    margin-left: 280px;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 1px groove rgb(0, 0, 0);
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 465px;
+    margin-top:3360px ;
+    position: absolute;
+    transition: 1s;
+}
+.tet{
+ text-align: center;
+
+}
